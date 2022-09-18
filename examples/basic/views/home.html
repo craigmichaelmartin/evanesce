@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Example Store Home Page</title>
+  </head>
+  <body>
+    <h1>Welcome to the example store home page!</h1>
+    <p>We stand behind our products. But don't just take our word, here's how folks have reviewed our customer service</p>
+    <ul>
+      {{# customerServiceReviews }}
+      <li><b>{{title}}</b> <span>{{body}}</span></li>
+      {{/ customerServiceReviews }}
+    </ul>
+  </body>
+</html>
