@@ -8,7 +8,7 @@ npm install --save evanesce
 
 ## What is Evanesce?
 
-Evanesce is a tool to provide Static Route Generation (SRG) by disappearing your web framework for opt-in routes and building the HTML for a route in the background when a dependency of the route changes. The built HTML is passed it to a specified callback where you can push it to the edges.
+Evanesce is a tool to provide Static Route Generation (SRG) by disappearing your web framework for opt-in routes and building the HTML for a route in the background when a dependency of the route changes. The built HTML is passed to a specified callback where you can push it to the edges.
 
 ## How does it work?
 
