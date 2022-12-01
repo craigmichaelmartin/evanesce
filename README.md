@@ -12,7 +12,7 @@ Evanesce is a tool to provide Static Route Generation (SRG) by disappearing your
 
 ## How does it work?
 
-Evanesce provides a router mirroring your web framework router, and signals of your specification which routes can depend on. Evanesce manages building these routes in the background when a depedency signal is triggered.
+Evanesce provides a Router (which mirrors your web framework router) and Signals (based on what you specify, and are used to define the dependecies of a route). Evanesce manages re-building routes in the background when a depedency signal of them is triggered.
 
 For example:
 
